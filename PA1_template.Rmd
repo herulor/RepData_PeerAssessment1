@@ -4,7 +4,7 @@ author: "Víctor H Cervantes"
 date: "12/06/2014"
 output:
   html_document:
-    fig_width: 8
+    fig_width: 14
     theme: cerulean
 keep_md: yes
 ---
@@ -173,7 +173,7 @@ significant.
 Finally, we wish to evaluate if there are different patterns during the weekends with respect to the weekdays in the activity.
 The following code shows plots the average number of steps taken on each of the 288 five-minute intervals according to the period of the week they were taken.
 
-```{r weekendTimeSeriesplot}
+```{r weekendTimeSeriesplot, fig.height= 10}
 weekendActivity <- aggregate(imputedActivity[, 'steps'],
                               by = list(interval = imputedActivity[, 'interval'],
                                         period = imputedActivity[, 'weekend']),

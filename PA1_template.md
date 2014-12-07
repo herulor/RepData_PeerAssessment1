@@ -4,8 +4,7 @@ author: "Víctor H Cervantes"
 date: "12/06/2014"
 output:
   html_document:
-    fig_width: 8
-    self_contained: no
+    fig_width: 14
     theme: cerulean
 keep_md: yes
 ---
@@ -19,7 +18,7 @@ The following code sets some global options for the document and the analyses.
 ```r
 # # Global variables
 inPath  <- './input'
-figPath <- './PA1_template_files/figure-html/'
+figPath <- './figure'
 
 # # Load packages
 library("ggplot2")
@@ -61,7 +60,7 @@ print(xtable(summary(dataActivity[, c('steps', 'interval', 'date')])),
 ```
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-3 package -->
-<!-- Sun Dec  7 00:35:57 2014 -->
+<!-- Sun Dec  7 00:46:11 2014 -->
 <TABLE border=1>
 <TR> <TH>     steps </TH> <TH>    interval </TH> <TH>      date </TH>  </TR>
   <TR> <TD> Min.   :  0.0   </TD> <TD> Min.   :   0   </TD> <TD> Min.   :2012-10-01   </TD> </TR>
