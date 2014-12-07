@@ -4,7 +4,7 @@ author: "Víctor H Cervantes"
 date: "12/06/2014"
 output:
   html_document:
-    fig_width: 14
+    fig_width: 24
     theme: cerulean
 keep_md: yes
 ---

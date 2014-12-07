@@ -4,7 +4,7 @@ author: "Víctor H Cervantes"
 date: "12/06/2014"
 output:
   html_document:
-    fig_width: 14
+    fig_width: 24
     theme: cerulean
 keep_md: yes
 ---
@@ -60,7 +60,7 @@ print(xtable(summary(dataActivity[, c('steps', 'interval', 'date')])),
 ```
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-3 package -->
-<!-- Sun Dec  7 00:46:11 2014 -->
+<!-- Sun Dec  7 00:48:39 2014 -->
 <TABLE border=1>
 <TR> <TH>     steps </TH> <TH>    interval </TH> <TH>      date </TH>  </TR>
   <TR> <TD> Min.   :  0.0   </TD> <TD> Min.   :   0   </TD> <TD> Min.   :2012-10-01   </TD> </TR>
