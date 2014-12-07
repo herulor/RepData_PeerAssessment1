@@ -1,9 +1,13 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
+title: 'Reproducible Research: Peer Assessment 1'
 author: "Víctor H Cervantes"
 date: "12/06/2014"
-output: html_document
-keep_md: true
+output:
+  html_document:
+    fig_width: 8
+    self_contained: no
+    theme: cerulean
+keep_md: yes
 ---
 
 This document presents the analyses on data from an anonymous individual on his personal [Activity monitoring data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip), retrieved on December 5, 2014 from the associated url. Especifically, the activity recorded corresponds to the number of steps taken by the person on 5 minute intervals.
@@ -14,6 +18,7 @@ The following code sets some global options for the document and the analyses.
 ```{r global}
 # # Global variables
 inPath  <- './input'
+figPath <- './PA1_template_files/figure-html/'
 
 # # Load packages
 library("ggplot2")
